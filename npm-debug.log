@@ -1,0 +1,159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'pug-cli',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'pug-cli', null ]
+5 verbose cache add name=undefined spec="pug-cli" args=["pug-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'pug-cli',
+6 verbose parsed url   path: 'pug-cli',
+6 verbose parsed url   href: 'pug-cli' }
+7 silly lockFile f8d1f145-pug-cli pug-cli
+8 verbose lock pug-cli /home/techquasar/.npm/f8d1f145-pug-cli.lock
+9 silly lockFile f8d1f145-pug-cli pug-cli
+10 silly lockFile f8d1f145-pug-cli pug-cli
+11 verbose addNamed [ 'pug-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d6157a51-pug-cli pug-cli@
+14 verbose lock pug-cli@ /home/techquasar/.npm/d6157a51-pug-cli.lock
+15 silly addNameRange { name: 'pug-cli', range: '*', hasData: false }
+16 verbose request where is /pug-cli
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 017c7cb55e5fb1d9
+19 verbose url raw /pug-cli
+20 verbose url resolving [ 'https://registry.npmjs.org/', './pug-cli' ]
+21 verbose url resolved https://registry.npmjs.org/pug-cli
+22 verbose request where is https://registry.npmjs.org/pug-cli
+23 info trying registry request attempt 1 at 11:46:36
+24 http GET https://registry.npmjs.org/pug-cli
+25 http 200 https://registry.npmjs.org/pug-cli
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sat, 04 Aug 2018 18:46:32 GMT',
+26 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+26 silly registry.get     'transfer-encoding': 'chunked',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'set-cookie': [ '__cfduid=dde0bf9a89ccb5c9d1bb2ffb2993891e91533408392; expires=Sun, 04-Aug-19 18:46:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'cf-cache-status': 'HIT',
+26 silly registry.get     'cf-ray': '44532ff61e6576be-LAX',
+26 silly registry.get     etag: 'W/"0131297fb52000c139a36c1f4595d5f3"',
+26 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+26 silly registry.get     'last-modified': 'Sun, 27 May 2018 13:07:53 GMT',
+26 silly registry.get     vary: 'accept-encoding, accept',
+26 silly registry.get     server: 'cloudflare',
+26 silly registry.get     'content-encoding': 'gzip' } ]
+27 silly addNameRange number 2 { name: 'pug-cli', range: '*', hasData: true }
+28 silly addNameRange versions [ 'pug-cli',
+28 silly addNameRange   [ '0.0.0',
+28 silly addNameRange     '1.0.0-alpha1',
+28 silly addNameRange     '1.0.0-alpha2',
+28 silly addNameRange     '1.0.0-alpha3',
+28 silly addNameRange     '1.0.0-alpha4',
+28 silly addNameRange     '1.0.0-alpha5',
+28 silly addNameRange     '1.0.0-alpha6' ] ]
+29 verbose addNamed [ 'pug-cli', '1.0.0-alpha6' ]
+30 verbose addNamed [ '1.0.0-alpha6', '1.0.0-alpha6' ]
+31 silly lockFile 16cacae8-pug-cli-1-0-0-alpha6 pug-cli@1.0.0-alpha6
+32 verbose lock pug-cli@1.0.0-alpha6 /home/techquasar/.npm/16cacae8-pug-cli-1-0-0-alpha6.lock
+33 silly lockFile a2946bdd-pug-cli-pug-cli-1-0-0-alpha6-tgz https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz
+34 verbose lock https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz /home/techquasar/.npm/a2946bdd-pug-cli-pug-cli-1-0-0-alpha6-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz',
+35 verbose addRemoteTarball   '1ca539ea4ac0ebb69ce4aae84aeed5d64ffe6501' ]
+36 info retry fetch attempt 1 at 11:46:36
+37 verbose fetch to= /tmp/npm-34102-u2qhXTfr/registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz
+38 http GET https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz
+39 http 200 https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz
+40 silly lockFile a2946bdd-pug-cli-pug-cli-1-0-0-alpha6-tgz https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz
+41 silly lockFile a2946bdd-pug-cli-pug-cli-1-0-0-alpha6-tgz https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz
+42 silly lockFile 16cacae8-pug-cli-1-0-0-alpha6 pug-cli@1.0.0-alpha6
+43 silly lockFile 16cacae8-pug-cli-1-0-0-alpha6 pug-cli@1.0.0-alpha6
+44 silly lockFile d6157a51-pug-cli pug-cli@
+45 silly lockFile d6157a51-pug-cli pug-cli@
+46 silly resolved [ { name: 'pug-cli',
+46 silly resolved     version: '1.0.0-alpha6',
+46 silly resolved     description: 'Pug\'s CLI interface',
+46 silly resolved     bin: { pug: './index.js' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     keywords: [],
+46 silly resolved     dependencies:
+46 silly resolved      { chalk: '^1.0.0',
+46 silly resolved        commander: '^2.8.1',
+46 silly resolved        pug: '^2.0.0-alpha7',
+46 silly resolved        mkdirp: '^0.5.1' },
+46 silly resolved     devDependencies: { istanbul: '*', mocha: '*', rimraf: '^2.3.4' },
+46 silly resolved     scripts:
+46 silly resolved      { test: 'mocha -R spec --bail',
+46 silly resolved        precoverage: 'rimraf coverage && rimraf cov-pt*',
+46 silly resolved        coverage: 'istanbul cover --report none --dir cov-pt0 node_modules/mocha/bin/_mocha -- -R dot',
+46 silly resolved        postcoverage: 'istanbul report --include cov-pt\\*/coverage.json && rimraf cov-pt*' },
+46 silly resolved     repository: { type: 'git', url: 'git+https://github.com/pugjs/pug-cli.git' },
+46 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+46 silly resolved     maintainers: [ [Object], [Object] ],
+46 silly resolved     license: 'MIT',
+46 silly resolved     gitHead: '7d4cec4806f530fa4ae31e76e0d6ba0dacf2b7a9',
+46 silly resolved     bugs: { url: 'https://github.com/pugjs/pug-cli/issues' },
+46 silly resolved     homepage: 'https://github.com/pugjs/pug-cli#readme',
+46 silly resolved     _id: 'pug-cli@1.0.0-alpha6',
+46 silly resolved     _shasum: '1ca539ea4ac0ebb69ce4aae84aeed5d64ffe6501',
+46 silly resolved     _from: 'pug-cli@',
+46 silly resolved     _npmVersion: '3.8.9',
+46 silly resolved     _nodeVersion: '6.2.0',
+46 silly resolved     _npmUser: { name: 'timothygu', email: 'timothygu99@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '1ca539ea4ac0ebb69ce4aae84aeed5d64ffe6501',
+46 silly resolved        tarball: 'https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz' },
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+46 silly resolved        tmp: 'tmp/pug-cli-1.0.0-alpha6.tgz_1464825444800_0.8597624313551933' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/pug-cli/-/pug-cli-1.0.0-alpha6.tgz' } ]
+47 info install pug-cli@1.0.0-alpha6 into /usr/local/lib
+48 info installOne pug-cli@1.0.0-alpha6
+49 verbose lib/node_modules/pug-cli unbuild
+50 verbose tar unpack /home/techquasar/.npm/pug-cli/1.0.0-alpha6/package.tgz
+51 silly lockFile 7b5d2ac4-r-local-lib-node-modules-pug-cli tar:///usr/local/lib/node_modules/pug-cli
+52 verbose lock tar:///usr/local/lib/node_modules/pug-cli /home/techquasar/.npm/7b5d2ac4-r-local-lib-node-modules-pug-cli.lock
+53 silly lockFile d1688f3d-pug-cli-1-0-0-alpha6-package-tgz tar:///home/techquasar/.npm/pug-cli/1.0.0-alpha6/package.tgz
+54 verbose lock tar:///home/techquasar/.npm/pug-cli/1.0.0-alpha6/package.tgz /home/techquasar/.npm/d1688f3d-pug-cli-1-0-0-alpha6-package-tgz.lock
+55 silly gunzTarPerm modes [ '775', '664' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/pug-cli'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/pug-cli']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/pug-cli',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/pug-cli',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 3.10.0-862.9.1.el7.x86_64
+59 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "pug-cli" "-g"
+60 error cwd /home/techquasar/cicd-pipeline-train-schedule-git
+61 error node -v v0.10.30
+62 error npm -v 1.4.21
+63 error path /usr/local/lib/node_modules/pug-cli
+64 error fstream_path /usr/local/lib/node_modules/pug-cli
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/pug-cli'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
